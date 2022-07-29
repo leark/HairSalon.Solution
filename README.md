@@ -25,29 +25,31 @@ _Requires console application such as Git Bash, Terminal, or PowerShell_
 1. Open Git Bash or PowerShell if on Windows and Terminal if on Mac
 2. Run the command
 
-    ``git clone https://github.com/leark/HairSalon.git``
+    ``git clone https://github.com/leark/HairSalon.Solution.git``
 
 3. Run the command
 
-    ``cd HairSalon``
+    ``cd HairSalon.Solution``
 
 * You should now have a folder `HairSalon` with the following structure.
-    <pre>HairSalon
-    ├── Controllers
-    ├── Models
-    ├── ...
-    ├── README.md
-    └── Startup.cs</pre>
+    <pre>HairSalon.Solution
+    └── HairSalon
+        ├── Controllers
+        ├── Models
+        ├── ...
+        ├── README.md
+        └── Startup.cs</pre>
 
 4. Add a file named appsettings.json in the following location 
 
-    <pre>HairSalon
-    ├── Controllers
-    ├── Models
-    ├── ...
-    ├── README.md
-    ├── Startup.cs
-    └── <strong>appsettings.json</strong></pre>
+    <pre>HairSalon.Solution
+    └── HairSalon
+        ├── Controllers
+        ├── Models
+        ├── ...
+        ├── README.md
+        ├── Startup.cs
+        └── <strong>appsettings.json</strong></pre>
 
 5. Copy and paste below JSON text.
 
@@ -66,14 +68,15 @@ _Requires console application such as Git Bash, Terminal, or PowerShell_
 
 <strong>To Run</strong>
 
-Navigate to the topmost directory in the console
-    <pre><strong>HairSalon</strong>
-    ├── Controllers
-    ├── Models
-    ├── ...
-    ├── README.md
-    ├── Startup.cs
-    └── appsettings.json</pre>
+Navigate to the following directory in the console
+    <pre>HairSalon.Solution
+    └── <strong>HairSalon</strong>
+        ├── Controllers
+        ├── Models
+        ├── ...
+        ├── README.md
+        ├── Startup.cs
+        └── appsettings.json</pre>
 
 Run the following command in the console
 
