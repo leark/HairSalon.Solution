@@ -50,7 +50,7 @@ namespace HairSalon.Controllers
       return View(stylist);
     }
 
-    [HttpPost]
+    [HttpPost, ActionName("Delete")]
     public ActionResult Deleted(int id)
     {
       Stylist stylist = FindStylistById(id);

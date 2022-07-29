@@ -50,7 +50,7 @@ namespace HairSalon.Controllers
       return View(client);
     }
 
-    [HttpPost]
+    [HttpPost, ActionName("Delete")]
     public ActionResult Deleted(int id)
     {
       Client client = FindClientById(id);
