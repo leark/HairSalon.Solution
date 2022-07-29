@@ -31,7 +31,7 @@ _Requires console application such as Git Bash, Terminal, or PowerShell_
 
     ``cd HairSalon.Solution``
 
-* You should now have a folder `HairSalon` with the following structure.
+* You should now have a folder `HairSalon.Solution` with the following structure.
     <pre>HairSalon.Solution
     └── HairSalon
         ├── Controllers
@@ -51,12 +51,12 @@ _Requires console application such as Git Bash, Terminal, or PowerShell_
         ├── Startup.cs
         └── <strong>appsettings.json</strong></pre>
 
-5. Copy and paste below JSON text.
+5. Copy and paste below JSON text in appsettings.json.
 
 ```json
 {
   "ConnectionStrings": {
-      "DefaultConnection": "Server=localhost;Port=3306;database=best_restaurants;uid=[YOUR-USERNAME-HERE];pwd=[YOUR-PASSWORD-HERE]"
+      "DefaultConnection": "Server=localhost;Port=3306;database=seung_lee;uid=[YOUR-USERNAME-HERE];pwd=[YOUR-PASSWORD-HERE]"
   }
 }
 ```
