@@ -5,7 +5,7 @@
 @model HairSalon.Models.Client;
 
 <h4>Add a New Client</h4>
-@if (ViewBag.StylistId.SelectedValue == null)
+@if (ViewBag.StylistId.Items == null)
 {
   <h5>No stylists. Please add a stylist first.</h5>
 }
@@ -28,7 +28,9 @@ else
       @Html.DropDownList("StylistId", ViewBag.StylistId, null, new { required = "required"})
     </div>
 
-    <input type="submit" value="Add Client" />
+    <div class="form-group">
+      <input type="submit" value="Add Client" />
+    </div>
   }
 }
 

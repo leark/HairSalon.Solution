@@ -11,3 +11,7 @@ div#footer {
 p.link {
   margin-top: 10px;
 }
+
+div.form-group {
+  margin-bottom: 5px;
+}

@@ -5,5 +5,16 @@
 
 <h1>Eau Claire's Salon Management Application</h1>
 
+@using (Html.BeginForm("Search", "Home"))
+
+{
+  <div class="form-group">
+    @Html.Label("searchTerm", "Search Stylists or Clients By Name")
+    @Html.TextBox("searchTerm", null, "", new { required = "required" })
+    <input type="submit" value="Search" />
+  </div>
+
+}
+
 <p class="link">@Html.ActionLink("Go to Stylist List", "Index", "Stylists")</p>
 <p class="link">@Html.ActionLink("Go to Client List", "Index", "Clients")</p>
