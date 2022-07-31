@@ -2,7 +2,7 @@
 
 #### By _Seung Lee_
 
-#### _A simple website that._
+#### _A simple website that lets a user manage a number of stylists and clients._
 
 ## Technologies Used
 
@@ -16,11 +16,12 @@
 
 ## Description
 
-A simple website where a user can .
+A simple website where a user can add stylists and clients. Per stylists and clients, the website keeps track of their phone numbers. For clients, the website also tracks which stylist they belong to. Stylists and clients can be deleted. Stylists or clients can be searched by their name.
 
 ## Setup/Installation Requirements
 
 _Requires console application such as Git Bash, Terminal, or PowerShell_
+_Requires MySQL and MySQL Workbench to be installed_
 
 1. Open Git Bash or PowerShell if on Windows and Terminal if on Mac
 2. Run the command
@@ -65,18 +66,13 @@ _Requires console application such as Git Bash, Terminal, or PowerShell_
 
 7. Replace [YOUR-PASSWORD-HERE] with your MySQL password.
 
+8. Import seung_lee.sql file in the root directory to MySQL Workbench. Instructions on how to import a database is [here](https://dev.mysql.com/doc/workbench/en/wb-admin-export-import-management.html)
 
 <strong>To Run</strong>
 
 Navigate to the following directory in the console
     <pre>HairSalon.Solution
-    └── <strong>HairSalon</strong>
-        ├── Controllers
-        ├── Models
-        ├── ...
-        ├── README.md
-        ├── Startup.cs
-        └── appsettings.json</pre>
+    └── <strong>HairSalon</strong></pre>
 
 Run the following command in the console
 
