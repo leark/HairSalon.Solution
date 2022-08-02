@@ -34,6 +34,8 @@ _Requires MySQL and MySQL Workbench to be installed_
 
 * You should now have a folder `HairSalon.Solution` with the following structure.
     <pre>HairSalon.Solution
+    ├── .gitignore 
+    ├── ... 
     └── HairSalon
         ├── Controllers
         ├── Models
@@ -44,14 +46,15 @@ _Requires MySQL and MySQL Workbench to be installed_
 4. Add a file named appsettings.json in the following location 
 
     <pre>HairSalon.Solution
+    ├── .gitignore 
+    ├── ... 
     └── HairSalon
         ├── Controllers
         ├── Models
         ├── ...
-        ├── README.md
         ├── Startup.cs
         └── <strong>appsettings.json</strong></pre>
-
+      
 5. Copy and paste below JSON text in appsettings.json.
 
 ```json
